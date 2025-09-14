@@ -17,7 +17,7 @@ body {
 
 /* HEADER WITH IMAGE */
 header {
-  background: url("https://images.squarespace-cdn.com/content/v1/57c92580c534a5c7c898f469/1565774361135-56DRRQRCARQ9NMMLVOOL/ReviewDexter.jpg") center top no-repeat;
+  background: url("") center top no-repeat;
   background-size: cover;
   height: 250px;
   display: flex;
