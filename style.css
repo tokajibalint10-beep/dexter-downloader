@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #0b0b0b, #1a1a1a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+  background: #111;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.4);
+}
+
+.dexter-title {
+  font-size: 4em;
+  color: #e50914; /* Dexter blood red */
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+
+.download-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #e50914;
+  padding: 18px 50px;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.6);
+}
+
+.download-btn:hover {
+  background: #b0060f;
+  box-shadow: 0 0 25px rgba(229, 9, 20, 0.9);
+}
