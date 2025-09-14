@@ -3,11 +3,16 @@
 
 body {
   margin: 0;
-  background: black url("https://t4.ftcdn.net/jpg/01/64/65/63/360_F_164656302_4SnRqfybvS1KYt6WGE3dIU6lzOuQYqVS.jpg") repeat;
-  background-size: 600px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+
+  /* Layered background: base image + blood splatter PNG */
+  background: 
+    url("https://www.freeiconspng.com/uploads/blood-spatter-png-clipart-11.png") center top no-repeat,
+    url("https://gamegator.net/_next/image?url=https%3A%2F%2Fimages.gamegator.net%2Flqmwbthwkru3yzglkgyu&w=1920&q=75") center top no-repeat black;
+  background-size: contain, cover;
+  background-attachment: fixed;
 }
 
 /* HEADER WITH IMAGE */
